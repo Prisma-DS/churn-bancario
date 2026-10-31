@@ -9,7 +9,7 @@ informe-gestion/
 ├── data/            # datos de muestra o descripción de las columnas
 ├── images/          # capturas del dashboard
 └── notebooks/       # limpieza y análisis exploratorio (Python)
-
+´´´
 
 ## Herramientas
 
