@@ -95,15 +95,10 @@ Lideran `NumOfProducts`, `IsActiveMember`, `Age` y `Geography_Germany`, en líne
 ## Cómo reproducirlo
 
 ```bash
-git clone https://github.com/<tu-usuario>/financeguard-churn.git
-cd financeguard-churn
-
-python -m venv .venv
-# Windows:        .venv\Scripts\activate
-# macOS / Linux:  source .venv/bin/activate
-
 pip install -r requirements.txt
-# Colocar Churn_Modelling.csv en la carpeta data/ (ver data/README.md)
+
+# Colocar Churn_Modelling.csv en la carpeta data/ 
+# Colocar Churn_Modelling_limpio.csv en la carpeta data/
 
 jupyter lab
 ```
