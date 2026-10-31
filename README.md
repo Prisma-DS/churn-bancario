@@ -28,7 +28,7 @@ Un banco digital pierde **1 de cada 5 clientes (20,4 %)**. Este proyecto respond
 
 Dataset de churn bancario con **10.000 clientes y 14 columnas** (perfil demográfico, saldo, productos, actividad) y la variable objetivo `Exited` (1 = abandonó). La tasa de abandono es del 20,37 % (2.037 clientes). Se trabaja con una partición estratificada 80/20: 8.000 clientes para entrenar y 2.000 para test (407 abandonos).
 
-Los archivos se encuentran en: [`data/Churn_Modelling.csv`](data/Churn_Modelling)  [`data/Churn_Modelling_limpio.csv`](data/Churn_Modelling Limpio).
+Los archivos se encuentran en: [`data/Churn_Modelling.csv`](data/Churn_Modelling)  [`data/Churn_Modelling_limpio.csv`](data/Churn_Modelling_Limpio).
 
 ## Contenido del repositorio
 
