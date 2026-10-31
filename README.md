@@ -28,7 +28,7 @@ Un banco digital pierde **1 de cada 5 clientes (20,4 %)**. Este proyecto respond
 
 Dataset de churn bancario con **10.000 clientes y 14 columnas** (perfil demográfico, saldo, productos, actividad) y la variable objetivo `Exited` (1 = abandonó). La tasa de abandono es del 20,37 % (2.037 clientes). Se trabaja con una partición estratificada 80/20: 8.000 clientes para entrenar y 2.000 para test (407 abandonos).
 
-El archivo **no está incluido en el repositorio**. Consultá [`data/README.md`](data/README.md) para ver cómo obtenerlo y dónde colocarlo.
+Los archivos se encuentran en: [`data/Churn_Modelling.csv`](data/Churn_Modelling)  [`data/Churn_Modelling_limpio.csv`](data/Churn_Modelling Limpio).
 
 ## Contenido del repositorio
 
@@ -109,7 +109,7 @@ jupyter lab
 ```
 
 1. Ejecutar los notebooks **en orden** (1 → 2 → 3) desde la carpeta `notebooks/`. Los tres leen el CSV con una ruta relativa (`../data/`).
-2. El Avance 1 genera `data/Churn_Modelling_limpio.csv` (variables codificadas). Si no existe, el Avance 2 lo reconstruye a partir del CSV original.
+2. El Avance 1 genera `data/Churn_Modelling_limpio.csv` (variables codificadas).
 3. La semilla es `RANDOM_STATE = 42` en todo el proyecto. El Avance 2 puede tardar varios minutos (el Stacking es lo más lento) y los tiempos de entrenamiento dependen del equipo.
 
 Desarrollado y ejecutado con Python 3.14 y scikit-learn 1.8. `requirements.txt` fija solo versiones mínimas; si querés reproducir exactamente tu entorno, generá un archivo de versiones con `pip freeze`.
@@ -129,13 +129,6 @@ Desarrollado y ejecutado con Python 3.14 y scikit-learn 1.8. `requirements.txt` 
 - `Geography` y `Gender` son entradas del modelo. Las falsas alarmas difieren por grupo, por lo que conviene vigilar el desempeño por grupo y evaluar si deben seguir como variables.
 - Los odds ratios, la importancia de variables y los clusters describen **asociaciones, no causas**.
 - Los segmentos del Avance 3 son débiles (silueta 0,15).
-
-## Próximos pasos
-
-- Recalcular el umbral con los costos y la capacidad operativa reales.
-- Incorporar nuevas variables antes de seguir afinando hiperparámetros.
-- Evaluar el modelo sin `Geography` y `Gender`.
-- Medir el impacto real de las campañas con un grupo de control.
 
 ## Tecnologías
 
