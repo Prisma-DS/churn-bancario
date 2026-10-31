@@ -132,4 +132,4 @@ Python · pandas · NumPy · scikit-learn · XGBoost · LightGBM · CatBoost · 
 ## Autora
 
 **Jessica Torres** · Consultora de datos (Power BI, SQL y Python) con formación en Data Science y Machine Learning.
-[LinkedIn](https://www.linkedin.com/in/<tu-perfil>) · [Correo](mailto:<tu-correo>)
+[LinkedIn](www.linkedin.com/in/jessicatorresmolina) · [Correo](mailto:jnadeshda@gmail.com)
