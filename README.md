@@ -10,11 +10,13 @@ informe-gestion/
 ├── images/          # capturas del dashboard
 └── notebooks/       # limpieza y análisis exploratorio (Python)
 
+
 ## Herramientas
 
 - **Lenguaje:** Python
 - **Análisis y visualización:** Pandas, Matplotlib, Seaborn
 - **Business Intelligence:** Power BI, Power Query, DAX Studio
+
 
 ## Autora
 
