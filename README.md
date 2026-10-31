@@ -14,8 +14,7 @@ informe-gestion/
 ## Herramientas
 
 - **Lenguaje:** Python
-- **Análisis y visualización:** Pandas, Matplotlib, Seaborn
-- **Business Intelligence:** Power BI, Power Query, DAX Studio
+- **Análisis y visualización:** statsmodels, sklearn, Pandas, Matplotlib, Seaborn
 
 
 ## Autora
